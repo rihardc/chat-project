@@ -1,5 +1,4 @@
 {
-	const auth = firebase.auth();
 	const messaging = firebase.messaging();
 	const database = firebase.database();
 	const notificationForm = document.getElementById('notification-form');
