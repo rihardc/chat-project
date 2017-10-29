@@ -17,7 +17,7 @@
 
 ## Setting up the server:
 14) Deploy database, hosting, functions (```firebase deploy```) (it's going to take a while);
-15) Start firebase server (```firebase serve```) (if firebase returns an error, try ```firebase serve -p 5000 -o 127.0.0.1)
+15) Start firebase server (```firebase serve```) (if firebase returns an error, try ```firebase serve -p 5000 -o 127.0.0.1```)
 
 ## Testing
 Open ```localhost:5000```, allow notifications when asked;
