@@ -1,5 +1,6 @@
 # Readme:
 
+## Install
 1) Install node.js (https://nodejs.org/en/download/) v7+
 2) Install Firebase Tools (```npm install -g firebase-tools```)
 3) Log In/ Create Firebase account (https://firebase.google.com/)
@@ -13,13 +14,14 @@
 11) Do not configure as a single page app (```N```) when asked.
 12) Do not overwrite 404 or index.html
 
-Setting up the server:
+## Setting up the server:
 13) Deploy database, hosting, functions (```firebase deploy```) (it's going to take a while);
 14) Start firebase server (```firebase serve```)
 
-Open localhost:5000, allow notifications when asked;
-Open your firebase hosting URL (you can find it in terminal), something like: [project-name].firebaseapp.com/
-Allow notifications on both windows;
+## Testing
+Open ```localhost:5000```, allow notifications when asked;
 
-Start chatting/receiving notifications;
+Open your firebase hosting URL (you can find it in terminal), something like: [project-name].firebaseapp.com/, allow notifications there.
+
+Start chatting/receiving notifications by posting messages on both tabs;
 
